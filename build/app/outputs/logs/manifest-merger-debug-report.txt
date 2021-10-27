@@ -1,0 +1,129 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/fabio/snap/flutter/bytebank/android/app/src/main/AndroidManifest.xml:1:1-33:12
+INJECTED from /home/fabio/snap/flutter/bytebank/android/app/src/main/AndroidManifest.xml:1:1-33:12
+INJECTED from /home/fabio/snap/flutter/bytebank/android/app/src/main/AndroidManifest.xml:1:1-33:12
+INJECTED from /home/fabio/snap/flutter/bytebank/android/app/src/main/AndroidManifest.xml:1:1-33:12
+MERGED from /home/fabio/snap/flutter/bytebank/android/app/src/main/AndroidManifest.xml:1:1-33:12
+MERGED from [:http_interceptor] /home/fabio/snap/flutter/bytebank/build/http_interceptor/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-7:12
+MERGED from [:sqflite] /home/fabio/snap/flutter/bytebank/build/sqflite/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.fragment:fragment:1.1.0] /home/fabio/.gradle/caches/transforms-1/files-1.1/fragment-1.1.0.aar/db0a018a8b87e4cc50a8144c646b40a6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.0.0] /home/fabio/.gradle/caches/transforms-1/files-1.1/activity-1.0.0.aar/d8bb1b69791652dcdb81ed2ffe206ac4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/fabio/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/4bf2f0416bea25a54d5c8bbfc40572e1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/fabio/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/1fb1c884177d965522ac7a34baadcf4f/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /home/fabio/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/dcbde26b33eafab163668d7f93e545f9/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] /home/fabio/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/3cb683f739bfcc8a48fd5b67f585df9e/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/fabio/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.2.0.aar/e4c0b7dd94146809e971b2abb3043895/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/fabio/.gradle/caches/transforms-1/files-1.1/savedstate-1.0.0.aar/0f53d87eb329d3d42f19999adc2220e1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/fabio/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/28d8863e7ca03d647d60c22aa3e3233d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/fabio/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/0eabcbd59960e85b7edd73e0fc466940/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/fabio/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/c3dc9ef2a1e57947d67102995b87affe/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/fabio/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.1.0.aar/27617d7ecf1dc9083598056de7ad8146/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/fabio/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.1.0.aar/90caf4a2761320fc84a0e5344bfaf06a/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/fabio/snap/flutter/bytebank/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /home/fabio/snap/flutter/bytebank/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /home/fabio/snap/flutter/bytebank/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+	package
+		ADDED from /home/fabio/snap/flutter/bytebank/android/app/src/main/AndroidManifest.xml:2:5-36
+		INJECTED from /home/fabio/snap/flutter/bytebank/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/fabio/snap/flutter/bytebank/android/app/src/debug/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/fabio/snap/flutter/bytebank/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/fabio/snap/flutter/bytebank/android/app/src/main/AndroidManifest.xml:1:1-33:12
+		INJECTED from /home/fabio/snap/flutter/bytebank/android/app/src/debug/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/fabio/snap/flutter/bytebank/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/fabio/snap/flutter/bytebank/android/app/src/main/AndroidManifest.xml:1:1-33:12
+		INJECTED from /home/fabio/snap/flutter/bytebank/android/app/src/debug/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/fabio/snap/flutter/bytebank/android/app/src/main/AndroidManifest.xml:1:11-69
+application
+ADDED from /home/fabio/snap/flutter/bytebank/android/app/src/main/AndroidManifest.xml:9:5-32:19
+MERGED from [androidx.core:core:1.1.0] /home/fabio/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/3cb683f739bfcc8a48fd5b67f585df9e/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] /home/fabio/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/3cb683f739bfcc8a48fd5b67f585df9e/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/fabio/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.1.0.aar/27617d7ecf1dc9083598056de7ad8146/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/fabio/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.1.0.aar/27617d7ecf1dc9083598056de7ad8146/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] /home/fabio/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/3cb683f739bfcc8a48fd5b67f585df9e/AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from /home/fabio/snap/flutter/bytebank/android/app/src/main/AndroidManifest.xml:11:9-33
+	android:icon
+		ADDED from /home/fabio/snap/flutter/bytebank/android/app/src/main/AndroidManifest.xml:12:9-43
+	android:name
+		ADDED from /home/fabio/snap/flutter/bytebank/android/app/src/main/AndroidManifest.xml:10:9-57
+activity#br.com.alura.bytebank.MainActivity
+ADDED from /home/fabio/snap/flutter/bytebank/android/app/src/main/AndroidManifest.xml:13:9-31:20
+	android:launchMode
+		ADDED from /home/fabio/snap/flutter/bytebank/android/app/src/main/AndroidManifest.xml:15:13-43
+	android:hardwareAccelerated
+		ADDED from /home/fabio/snap/flutter/bytebank/android/app/src/main/AndroidManifest.xml:18:13-47
+	android:windowSoftInputMode
+		ADDED from /home/fabio/snap/flutter/bytebank/android/app/src/main/AndroidManifest.xml:19:13-55
+	android:configChanges
+		ADDED from /home/fabio/snap/flutter/bytebank/android/app/src/main/AndroidManifest.xml:17:13-144
+	android:theme
+		ADDED from /home/fabio/snap/flutter/bytebank/android/app/src/main/AndroidManifest.xml:16:13-47
+	android:name
+		ADDED from /home/fabio/snap/flutter/bytebank/android/app/src/main/AndroidManifest.xml:14:13-41
+meta-data#io.flutter.app.android.SplashScreenUntilFirstFrame
+ADDED from /home/fabio/snap/flutter/bytebank/android/app/src/main/AndroidManifest.xml:24:13-26:40
+	android:value
+		ADDED from /home/fabio/snap/flutter/bytebank/android/app/src/main/AndroidManifest.xml:26:17-37
+	android:name
+		ADDED from /home/fabio/snap/flutter/bytebank/android/app/src/main/AndroidManifest.xml:25:17-82
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/fabio/snap/flutter/bytebank/android/app/src/main/AndroidManifest.xml:27:13-30:29
+action#android.intent.action.MAIN
+ADDED from /home/fabio/snap/flutter/bytebank/android/app/src/main/AndroidManifest.xml:28:17-68
+	android:name
+		ADDED from /home/fabio/snap/flutter/bytebank/android/app/src/main/AndroidManifest.xml:28:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/fabio/snap/flutter/bytebank/android/app/src/main/AndroidManifest.xml:29:17-76
+	android:name
+		ADDED from /home/fabio/snap/flutter/bytebank/android/app/src/main/AndroidManifest.xml:29:27-74
+uses-sdk
+INJECTED from /home/fabio/snap/flutter/bytebank/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/fabio/snap/flutter/bytebank/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/fabio/snap/flutter/bytebank/android/app/src/main/AndroidManifest.xml
+MERGED from [:http_interceptor] /home/fabio/snap/flutter/bytebank/build/http_interceptor/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [:http_interceptor] /home/fabio/snap/flutter/bytebank/build/http_interceptor/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [:sqflite] /home/fabio/snap/flutter/bytebank/build/sqflite/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [:sqflite] /home/fabio/snap/flutter/bytebank/build/sqflite/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] /home/fabio/.gradle/caches/transforms-1/files-1.1/fragment-1.1.0.aar/db0a018a8b87e4cc50a8144c646b40a6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /home/fabio/.gradle/caches/transforms-1/files-1.1/fragment-1.1.0.aar/db0a018a8b87e4cc50a8144c646b40a6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /home/fabio/.gradle/caches/transforms-1/files-1.1/activity-1.0.0.aar/d8bb1b69791652dcdb81ed2ffe206ac4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /home/fabio/.gradle/caches/transforms-1/files-1.1/activity-1.0.0.aar/d8bb1b69791652dcdb81ed2ffe206ac4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/fabio/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/4bf2f0416bea25a54d5c8bbfc40572e1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/fabio/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/4bf2f0416bea25a54d5c8bbfc40572e1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/fabio/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/1fb1c884177d965522ac7a34baadcf4f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/fabio/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/1fb1c884177d965522ac7a34baadcf4f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/fabio/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/dcbde26b33eafab163668d7f93e545f9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/fabio/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/dcbde26b33eafab163668d7f93e545f9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] /home/fabio/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/3cb683f739bfcc8a48fd5b67f585df9e/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /home/fabio/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/3cb683f739bfcc8a48fd5b67f585df9e/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/fabio/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.2.0.aar/e4c0b7dd94146809e971b2abb3043895/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/fabio/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.2.0.aar/e4c0b7dd94146809e971b2abb3043895/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/fabio/.gradle/caches/transforms-1/files-1.1/savedstate-1.0.0.aar/0f53d87eb329d3d42f19999adc2220e1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/fabio/.gradle/caches/transforms-1/files-1.1/savedstate-1.0.0.aar/0f53d87eb329d3d42f19999adc2220e1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/fabio/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/28d8863e7ca03d647d60c22aa3e3233d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/fabio/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/28d8863e7ca03d647d60c22aa3e3233d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/fabio/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/0eabcbd59960e85b7edd73e0fc466940/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/fabio/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/0eabcbd59960e85b7edd73e0fc466940/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/fabio/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/c3dc9ef2a1e57947d67102995b87affe/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/fabio/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/c3dc9ef2a1e57947d67102995b87affe/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/fabio/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.1.0.aar/27617d7ecf1dc9083598056de7ad8146/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/fabio/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.1.0.aar/27617d7ecf1dc9083598056de7ad8146/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/fabio/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.1.0.aar/90caf4a2761320fc84a0e5344bfaf06a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/fabio/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.1.0.aar/90caf4a2761320fc84a0e5344bfaf06a/AndroidManifest.xml:20:5-44
+INJECTED from /home/fabio/snap/flutter/bytebank/android/app/src/debug/AndroidManifest.xml
+INJECTED from /home/fabio/snap/flutter/bytebank/android/app/src/debug/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/fabio/snap/flutter/bytebank/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/fabio/snap/flutter/bytebank/android/app/src/debug/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/fabio/snap/flutter/bytebank/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/fabio/snap/flutter/bytebank/android/app/src/debug/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /home/fabio/snap/flutter/bytebank/android/app/src/debug/AndroidManifest.xml:6:5-66
+	android:name
+		ADDED from /home/fabio/snap/flutter/bytebank/android/app/src/debug/AndroidManifest.xml:6:22-64
