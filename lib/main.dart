@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'components/transaction_auth_dialog.dart';
 
 void main() {
-  runApp(BytebankApp());
+  runApp(BytebankApp());  
 }
 
 class BytebankApp extends StatelessWidget {
@@ -20,7 +20,7 @@ class BytebankApp extends StatelessWidget {
           textTheme: ButtonTextTheme.primary,
         ),
       ),
-      home: TransactionAuthDialog(),
+      home: Dashboard(),
     );
   }
 }
