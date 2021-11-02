@@ -1,4 +1,5 @@
 import 'package:bytebank/components/progress.dart';
+import 'package:bytebank/components/response_dialog.dart';
 import 'package:bytebank/components/transaction_auth_dialog.dart';
 import 'package:bytebank/http/webclients/transaction_webclient.dart';
 import 'package:bytebank/models/contact.dart';
@@ -96,8 +97,15 @@ class _TransactionFormState extends State<TransactionForm> {
    //await Future.delayed(Duration(seconds: 2));  //await segurar o codigo aé ser finalizado
     _webClient.save(transactionCreated, password).then((transaction) {
       if (transaction != null) {
-        Navigator.pop(context);
+
+        showDialog(context: context, builder: (contextDialog) {
+            return SuccessDialog('success transaction');
+        }).then((value) => Navigator.pop(context) ); //O then para saber que a tela foi fechada
       }
-    });
+    }) .catchError((e){
+        showDialog(context: context, builder: (contextDialog) {
+            return FailureDialog(e.message);
+        });
+    }, test: (e) =>e  is Exception);  //s executa esse cod quando identificar uma exception de verdade
   }
 }
