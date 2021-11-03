@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="acd120fa-ca2e-41a6-9068-e937b99d9ff8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/components/response_dialog.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/http/webclient.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/http/webclient.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/http/webclients/transaction_webclient.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/http/webclients/transaction_webclient.dart" afterDir="false" />

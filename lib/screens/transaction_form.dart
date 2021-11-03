@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:bytebank/components/progress.dart';
 import 'package:bytebank/components/response_dialog.dart';
 import 'package:bytebank/components/transaction_auth_dialog.dart';
@@ -94,18 +96,39 @@ class _TransactionFormState extends State<TransactionForm> {
     String password,
     BuildContext context,
   ) async {
-   //await Future.delayed(Duration(seconds: 2));  //await segurar o codigo aé ser finalizado
-    _webClient.save(transactionCreated, password).then((transaction) {
-      if (transaction != null) {
+    //await Future.delayed(Duration(seconds: 2));  //await segurar o codigo aé ser finalizado
+    final Transaction transaction = await _webClient
+        .save(transactionCreated, password)
 
-        showDialog(context: context, builder: (contextDialog) {
-            return SuccessDialog('success transaction');
-        }).then((value) => Navigator.pop(context) ); //O then para saber que a tela foi fechada
-      }
-    }) .catchError((e){
-        showDialog(context: context, builder: (contextDialog) {
+    .catchError((e) {
+      showDialog(
+          context: context,
+          builder: (contextDialog) {
             return FailureDialog(e.message);
-        });
-    }, test: (e) =>e  is Exception);  //s executa esse cod quando identificar uma exception de verdade
+          });
+    }, test: (e) => e is HttpException).catchError((e) {
+      showDialog(
+          context: context,
+          builder: (contextDialog) {
+            return FailureDialog('timeout submitting the transaction');
+          });
+    }, test: (e) => e is TimeoutException)
+    .catchError((e) {
+      showDialog(
+          context: context,
+          builder: (contextDialog) {
+            return FailureDialog('Unknown Error');
+          });
+    });
+
+     //s executa esse cod quando identificar uma exception de verdade
+    if (transaction != null) {
+      await showDialog(
+          context: context,
+          builder: (contextDialog) {
+            return SuccessDialog('success transaction');
+          });
+      Navigator.pop(context);
+    }
   }
 }
