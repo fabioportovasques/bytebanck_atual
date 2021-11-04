@@ -97,31 +97,18 @@ class _TransactionFormState extends State<TransactionForm> {
     BuildContext context,
   ) async {
     //await Future.delayed(Duration(seconds: 2));  //await segurar o codigo aé ser finalizado
-    final Transaction transaction = await _webClient
-        .save(transactionCreated, password)
+    Transaction transaction = await _send(
+            transactionCreated,
+            password,
+            context,
+    );
 
-    .catchError((e) {
-      showDialog(
-          context: context,
-          builder: (contextDialog) {
-            return FailureDialog(e.message);
-          });
-    }, test: (e) => e is HttpException).catchError((e) {
-      showDialog(
-          context: context,
-          builder: (contextDialog) {
-            return FailureDialog('timeout submitting the transaction');
-          });
-    }, test: (e) => e is TimeoutException)
-    .catchError((e) {
-      showDialog(
-          context: context,
-          builder: (contextDialog) {
-            return FailureDialog('Unknown Error');
-          });
-    });
+    //s executa esse cod quando identificar uma exception de verdade
+     _showSuccessfulMessage(transaction, context);
+  }
 
-     //s executa esse cod quando identificar uma exception de verdade
+  Future<void> _showSuccessfulMessage(
+      Transaction transaction, BuildContext context) async {
     if (transaction != null) {
       await showDialog(
           context: context,
@@ -130,5 +117,30 @@ class _TransactionFormState extends State<TransactionForm> {
           });
       Navigator.pop(context);
     }
+  }
+
+  Future<Transaction> _send(Transaction transactionCreated, String password,
+      BuildContext context) async {
+    final Transaction transaction =
+        await _webClient.save(transactionCreated, password).catchError((e) {
+      _showFailureMessage(context, message: e.message);
+    }, test: (e) => e is HttpException).catchError((e) {
+      _showFailureMessage(context,
+          message: 'timeout submitting the transaction');
+    }, test: (e) => e is TimeoutException).catchError((e) {
+      _showFailureMessage(context);
+    });
+    return transaction;
+  }
+
+  void _showFailureMessage(
+    BuildContext context, {
+    String message = 'Unknown Error',
+  }) {
+    showDialog(
+        context: context,
+        builder: (contextDialog) {
+          return FailureDialog(message);
+        });
   }
 }
